@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int a,b,sum,avg;
+	printf("Enter the number: ");
+	scanf("%d %d",&a,&b);
+	sum=a+b;
+	avg=(a+b)/2;
+	
+	
+	printf("sum : %d\n",sum);
+	printf("average : %d\n",avg);
+	return 0;
+}
